@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+a{
+  color: black;
+}
+
+:root {
+  --main-color: #7000FF;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 950px){
+  .container{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 768px){
+  .container{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 480px){
+  .container{
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+}

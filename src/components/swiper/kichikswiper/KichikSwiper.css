@@ -1,0 +1,17 @@
+.kichik__swiper{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+.kichik__swiper .description{
+    position: absolute;
+    top: 90%;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.kichik__swiper swiper{
+    width: 100%;
+}
